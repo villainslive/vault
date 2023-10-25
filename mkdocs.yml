@@ -1,0 +1,98 @@
+#Basic Info
+site_name: vault.villains.live
+site_url: https://vault.villains.live/
+site_author: The Villains of the World
+site_description: >-
+  Be Evil
+
+# Repository
+repo_name: villainslive/vault
+repo_url: https://github.com/villainslive/vault
+
+# Copyright
+copyright: Copyright &copy; 2023 Villains Live
+
+extra_css:
+  - stylesheets/extra.css
+  
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: deep purple
+      accent: deep purple
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: deep purple
+      accent: deep purple
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
+  icon:
+    repo: fontawesome/brands/git-alt
+  logo: logo.png
+
+plugins:
+  - social
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/villainslive/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/VillainsLive
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/villainslive/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/villainslive/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UC2mm1XsPeKXcnvgX6fxUbzw
+    - icon: fontawesome/brands/twitch
+      link: https://www.twitch.tv/villainslive
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/bqet8Dz
+      
+markdown_extensions:
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
