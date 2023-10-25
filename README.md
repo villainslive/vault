@@ -1,5 +1,3 @@
-Source to [https://vault.villains.live](https://vault.villains.live)
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -14,20 +12,7 @@ Source to [https://vault.villains.live](https://vault.villains.live)
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Source to [https://vault.villains.live](https://vault.villains.live)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
